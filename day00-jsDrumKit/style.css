@@ -1,0 +1,49 @@
+.keys{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+background-image: url("https://images.pexels.com/photos/213207/pexels-photo-213207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-size: contain;
+}
+
+.a, .s, .d, .f, .g, .h, .j, .k, .l{
+    background-color: transparent;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+    color: white;
+    border: transparent;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.buton{
+    cursor: pointer;
+    flex-direction: column;
+    border: 4px solid black;
+    padding: 1rem .5rem;
+    margin-left: 2vh;
+    border-radius: 5px;
+    width: 10vh;
+    transition: 1s;
+
+}
+.buton:hover{
+    box-shadow: 1px 1px yellow;
+    scale: 1.1;
+    border-color: rgb(119, 119, 37);
+}
+.sound{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

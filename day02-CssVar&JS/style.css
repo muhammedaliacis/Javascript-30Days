@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(17, 17, 95);
+    color: white;
+    
+}
+
+.font{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.inputs{
+    margin-top: 10vh;
+}
+
+.label{
+    font-size: 1.5rem;
+}
+
+.input{
+    background: rgb(117, 63, 63);
+    height: 5px;
+    color: black;
+}
+
+
+.imgg{
+    border: 15px solid white;
+    filter: blur(0px);
+    margin-top: 2vh;
+    width: 80vh;
+}
